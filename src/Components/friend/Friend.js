@@ -9,7 +9,6 @@ const Friend = (props) => {
     const friendDetail = () => {
         const path = `/friends/${id}`
         navigate(path);
-
     }
 
     return (

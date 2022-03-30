@@ -1,0 +1,8 @@
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex p{
+    margin-right: 5px;
+}
