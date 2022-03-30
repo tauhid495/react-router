@@ -12,11 +12,13 @@ const MealFound = ({ meal }) => {
     }
 
     return (
+
         <div>
-            <img src={strMealThumb} alt='' />
-            <h3>{strMeal}</h3>
-            <button onClick={mealDetail}>{idMeal}</button>
+            <img className='fluid rounded-lg' src={strMealThumb} alt='' />
+            <h3 className='text-2xl font-semibold'>{strMeal}</h3>
+            <button className='border-2 px-3 rounded-lg bg-slate-400' onClick={mealDetail}>Click For Detail</button>
         </div>
+
     );
 };
 

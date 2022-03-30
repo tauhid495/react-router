@@ -36,7 +36,7 @@ const MealSearch = () => {
                 <p>Search Here : </p>
                 <input onChange={searchFood} type="text" name="" id="" /> </div>
             <h3>Meals Found : {meals.length}</h3>
-            <div>
+            <div className='grid grid-cols-3 gap-10 p-10'>
                 {
                     meals.map(meal => <MealFound key={meal.idMeal} meal={meal} />)
                 }
